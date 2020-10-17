@@ -15,7 +15,7 @@ jobs:
 notifications:
   webhooks:
     urls:
-      - https://registry.hub.docker.com/u/plusminus/jdownloader2-headless/trigger/e50efaab-36ed-4900-b08d-3cf8944ca9cd/
+      - https://hub.docker.com/api/build/v1/source/e4f4be76-65f6-4bfc-b32e-c4fbd2b11421/trigger/f9f27771-eaa7-4413-8348-c3079893b048/call/
     on_success: always
     on_failure: never
     on_start: never
